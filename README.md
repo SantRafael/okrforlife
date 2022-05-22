@@ -3,6 +3,7 @@
 <p align="center">
   <a href="#sobre">Sobre</a> •
   <a href="#tecnologias">Tecnologias</a> •
+  <a href="#como-testar">Como testar</a> •
   <a href="#quem-somos">Quem somos</a>  
 </p>
 
@@ -31,6 +32,17 @@
 - [Bootstrap]
 - [JavaScript]
 - [JQuery]
+
+# Como testar
+
+- Caso não esteja conseguindo acessar o link, tente mudar a VPN;
+- Na tela inicial, clique em cadastrar;
+- Digite nome, e-mail, senha (poderá ser qualquer dado, só é necessário repetir no login os mesmos dados);
+- Clique em login;
+- Repita o e-mail e senha;
+- Nata tela abrirá, clique em "";
+- Digite o objetivo, e selecione o tempo que pretende acançá-lo;
+
 
 # Quem Somos
 
