@@ -2,7 +2,8 @@
 
 <p align="center">
   <a href="sobre">Sobre</a> •
-  <a href="quem-somos">Quem somos</a>
+  <a href="quem-somos">Tecnologias</a> •
+  <a href="quem-somos">Quem somos</a>  
 </p>
 
 # Sobre
@@ -19,5 +20,16 @@
 - [x] Página de controle de OKR's
 - [ ] Múltiplos resultados chaves
 
+<h2 align="center">:link: teste aqui: <a href="https://okrforlife.000webhostapp.com/img/okr.gif">OKRforLife</a></h2>
+
+# Tecnologias
+- [HTML]
+- [CSS]
+- [Bootstrap]
+- [JavaScript]
+- [JQuery]
+
 # Quem Somos
 <p>Apaixonados por tecnologia e cursamos Tecnologia em Sistemas para Internet. Este projeto faz parte do nosso estudo.</p>
+
+
