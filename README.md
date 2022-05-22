@@ -21,7 +21,8 @@
 - [x] Página de controle de OKR's
 - [ ] Múltiplos resultados chaves *
 - [ ] Ao informar "outros" no tipo de métrica, será possível digitar outra informação. *
-- [ ] Objetivo "Eu vou", estar aberto para qualquer informação e não só "estar saudável para" *
+- [ ] Objetivo "Eu vou", estar aberto para qualquer informação e não só "estar saudável para". *
+- [ ] Digitar o tipo de resultado chave em vez de selecionar reduzir e aumentar. *
 * As melhorias serão feitas futuramente, conforme as necessidades dos usuários após o "lançamento".
 
 <h2 align="center">:link: teste aqui: <a href="https://okrforlife.000webhostapp.com/img/okr.gif">OKRforLife</a></h2>
