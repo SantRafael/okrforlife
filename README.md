@@ -1,9 +1,9 @@
 <h1 align="center">:blue_heart: OkrforLife</h1>
 
 <p align="center">
-  <a href="sobre">Sobre</a> •
-  <a href="quem-somos">Tecnologias</a> •
-  <a href="quem-somos">Quem somos</a>  
+  <a href="#sobre">Sobre</a> •
+  <a href="#tecnologias">Tecnologias</a> •
+  <a href="#quem-somos">Quem somos</a>  
 </p>
 
 # Sobre
