@@ -40,9 +40,10 @@
 - Digite nome, e-mail, senha (poderá ser qualquer dado, só é necessário repetir no login os mesmos dados);
 - Clique em login;
 - Repita o e-mail e senha;
-- Nata tela abrirá, clique em "";
+- Nata tela abrirá, clique em "Adicionar OKR";
 - Digite o objetivo, e selecione o tempo que pretende acançá-lo;
-
+- Clique na aba "Resultado Chave";
+- Selecione se deseja reduzir ou aumentar, o valor atual e o que pretende alcançar e selecione a métrica.
 
 # Quem Somos
 
