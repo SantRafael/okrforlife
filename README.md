@@ -1,4 +1,4 @@
-<h1 align="center">:blue_heart: OkrforLife</h1>
+<h1 align="center">:blue_heart: OKRforLife</h1>
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
@@ -30,6 +30,7 @@
 - [JQuery]
 
 # Quem Somos
+
 <p>Apaixonados por tecnologia e cursamos Tecnologia em Sistemas para Internet. Este projeto faz parte do nosso estudo.</p>
 
 | Feito com :blue_heart: por Joei Vicente, José Alberto, Luiza Janeri, Marco Maciel e Rafael Santana
