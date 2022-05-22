@@ -1,0 +1,75 @@
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" >
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Novo OKR</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="overflow-y: scroll;width: 100%;height: 350px;">
+
+                <form id="formOkr">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="mostraObjetivo">Objetivo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="mostraResultadoChave">Resultado Chave</a>
+                        </li>
+                    </ul>
+
+                    <div id="grupoObjetivo">
+                        <div class="form-group">
+                            <label for="objetivo">Eu vou estar saudável para..</label>
+                            <textarea class="col-12" id="objetivo" name="objetivo"></textarea>
+
+                            <label for="tempoResultado">Eu vou estar saudável nesse..</label>
+                            <select class="form-control" id="tempoResultado" name="tempoResultado">
+                                <option>Trimestre</option>
+                                <option>Ano</option>
+                            </select>                            
+                        </div>
+                    </div>
+
+                    <div id="grupoResultadoChave" style="display:none">
+                        <div class="form-group">
+                            <label for="tipoObjetivo">Para isso vou..</label>
+                            <select class="form-control" id="tipoObjetivo" name="tipoObjetivo">
+                                <option>Reduzir</option>
+                                <option>Aumentar</option>
+                            </select>
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="valorInicial">De</label>
+                                        <input type="number" class="form-control" value="0" id="valorInicial" name="valorInicial">
+                                    </div>
+                                    <div class="col-2"></div>
+                                    <div class="col-5">
+                                        <label for="valorFinal">Para</label>
+                                        <input type="number" class="form-control" value="0" id="valorFinal" name="valorFinal">
+                                    </div> 
+                                </div>
+                            </div>  
+                            <select class="form-control" id="metrica" name="metrica">
+                                <option>Kg</option>
+                                <option>Cm de cintura</option>
+                                <option>Km de caminhada</option>
+                                <option>Sessões com a nutricionista</option>
+                                <option>Outros</option>
+                            </select>  
+                            
+                        </div>
+                    </div>
+                </form> 
+            </div>
+            <div class="modal-footer">
+                <div id="saveForm">
+                    <button class="btn btn-primary btnStyle btnSave" id="salvarOkr">Salvar</button>
+                </div>
+            </div>            
+        </div>
+    </div>
+</div> 

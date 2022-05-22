@@ -1,0 +1,76 @@
+<div class="container" id="login-container">
+    
+    <div class="row justify-content-center align-self-center">
+        
+        <div class="col-10 col-md-8" id="login">
+            
+            <div class="col-lg-6" id="login-image">
+                <img alt="GIF representando personagens fazendo calculos" src="img/login.gif">
+                <!-- Imagem de https://gestaodeclinicas.ajmed.com.br/sst-para-clinicas-medicas/ -->
+            </div>
+            
+            <div class="col-12 col-lg-6" id="login-inputs">
+                <div class="field_group">
+                    <p class="logo"><i class="fa fa-heart"></i> OKRforLife</p>
+                </div>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="mostraLogin">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="mostraCadastro">Cadastro</a>
+                    </li>
+                </ul>
+
+                <div class="login">
+                    <div class="field_group">
+                        <input type="email" class="input" placeholder="usuário" name="email" id='email' required>
+                        <label for="email" class="label">email</label>
+                    </div>
+                    <div class="field_group">
+                        <input type="password" class="input" placeholder="senha" name="senha" id='senha' required>
+                        <i class="fa fa-eye-slash eye invisible" id="eye-close"></i>
+                        <i class="fa fa-eye eye" id="eye-open"></i>
+                        <label for="senha" class="label">senha</label>
+                    </div>
+                </div>
+
+                <div class="cadastro" style="display: none;">
+                    <div class="field_group">
+                        <input type="text" class="input" placeholder="nome" name="nome" id='nome' required>
+                        <label for="nome" class="label">nome</label>
+                    </div>
+
+                    <div class="field_group">
+                        <input type="email" class="input" placeholder="email" name="novoEmail" id='novoEmail' required>
+                        <label for="novoEmail" class="label">email</label>
+                    </div>
+
+                    <div class="field_group">
+                        <input type="password" class="input" placeholder="senha" name="novaSenha" id='novaSenha' required>
+                        <i class="fa fa-eye-slash eye invisible" id="n-eye-close"></i>
+                        <i class="fa fa-eye eye" id="n-eye-open"></i>
+                        <label for="novaSenha" class="label">senha</label>
+                    </div>                        
+                </div>                
+                
+                <button type="button" class="btn btn-primary btnStyle login btnMargin" id="btnLogin">Login</button>
+                <button type="button" class="btn btn-primary btnStyle cadastro btnMargin" style="display: none;" id="btnCadastro">Cadastrar</button>
+
+                <div class="alert alert-warning invisible" id="no-register">
+                    <div class="row">
+                        <strong><i class="fa fa-warning"></i>&nbsp</strong> 
+                        <p id="textoErro"></p>
+                    </div>
+                </div>
+                
+                <div class="alert alert-success invisible" id="success-register">
+                    <p>Cadastro realizado com sucesso!<br>Realize o login.</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</div>

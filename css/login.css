@@ -1,0 +1,159 @@
+body{
+    background-color: #f9f9f9;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#login-container{
+    height: 100vh;
+    display: grid;
+    border-radius: 2vh;
+}
+
+#login{
+    background-color: white;
+    height: 70vh;
+    padding: 0;
+    border-radius: 1vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+#login-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    height: 100%;
+    float: left;
+}
+
+#login-image img{
+    width: 300px;
+}
+
+.logo{
+    text-align: center;
+    color: #239ae3;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.logo i {
+    background: -webkit-linear-gradient(#239ae3, #c7e5f7 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#login-inputs{
+    float: left;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#login-gradient{
+    background-color: black;
+}
+
+.field_group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.input {
+  font-family: inherit;
+  width: calc(100% - 10px);
+  border: 0;
+  border-bottom: 1.9px solid #9b9b9b;
+  outline: 0;
+  font-size: 1rem;
+  color: #9b9b9b;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.input::placeholder{
+    color: transparent;
+}
+.input:placeholder-shown ~ .label {
+    font-size: 1rem;
+    cursor: text;
+    top: 20px;
+}
+
+.label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+}
+
+.input:focus {
+    padding-bottom: 6px;  
+    font-weight: 500;
+    border-width: 1.9px;
+    border-image: linear-gradient(to left, #ff8d00 0%, #ffd400 100%);
+    border-image-slice: 1;
+}
+
+.input:focus ~ .label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #ff8d00;
+    font-weight:500;    
+}
+
+.input{
+   box-shadow:none;
+}
+.input:required{
+    box-shadow:none;
+}
+
+.input:invalid{
+    box-shadow:none;
+}
+
+.btnMargin{
+    margin-top: 3vh;
+}    
+
+#no-register{
+    margin-top: 3vh;
+    position: relative;
+    transition: 20s;
+}
+
+.eye{
+    top: 30px;
+    right: 10px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 0.9em;
+    color: #5f5c5c;
+}
+
+.invisible{
+    display: none;
+}
+@media screen and (max-width: 991px) {
+    #login-image{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #login{
+        height: 85vh;
+    }
+}

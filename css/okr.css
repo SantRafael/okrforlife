@@ -1,0 +1,33 @@
+.note{
+    background-color:#ffc; 
+    height:150px;
+    box-shadow: 5px 5px 7px rgb(33 33 33 / 20%);
+    padding:10px
+}
+
+.note p{
+    font-family: 'Reenie Beanie';font-size: 1.5rem;
+}
+
+.noteTrimestre{
+    background-color:#ffc;
+}
+.noteAno{
+    background-color:rgb(255, 204, 240);
+}
+
+.stickNote{
+    margin-top: 3vh;
+}
+.legendaTrimestre{
+    height: 20px;
+    width: 20px;
+    background-color:#ffc;
+}
+
+.legendaAno{
+    height: 20px;
+    width: 20px;
+    background-color:rgb(255, 204, 240);
+}
+
