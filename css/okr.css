@@ -2,7 +2,7 @@
     background-color:#ffc; 
     height:150px;
     box-shadow: 5px 5px 7px rgb(33 33 33 / 20%);
-    padding:10px
+    padding:10px;
 }
 
 .note p{
@@ -31,3 +31,8 @@
     background-color:rgb(255, 204, 240);
 }
 
+@media screen and (max-width: 991px) {
+    .stickNote{
+        margin: 3vh auto;
+    }
+}
