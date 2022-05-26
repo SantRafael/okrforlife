@@ -146,10 +146,22 @@ body{
 .invisible{
     display: none;
 }
+
+.notification{
+    position: absolute;
+    width: 90%;
+    margin: 2% 5%;
+}
 @media screen and (max-width: 991px) {
     #login-image{
         display: none;
     }
+
+    .notification{
+        position: relative;
+        width: 90%;
+        margin: 1% 5%;
+    }    
 }
 
 @media screen and (max-width: 600px) {

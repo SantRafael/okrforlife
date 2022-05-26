@@ -16,7 +16,8 @@
   </head>
   <body>
     <main>  
-        <?php 
+        <?php         
+            include_once "resources/notification.html";
             include_once "resources/login.html";
         ?>
     </main>
