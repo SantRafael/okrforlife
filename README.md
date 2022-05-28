@@ -25,8 +25,6 @@
 - [ ] Digitar o tipo de resultado chave em vez de selecionar reduzir e aumentar. *
 * As melhorias serão feitas futuramente, conforme as necessidades dos usuários após o "lançamento".
 
-<h2 align="center">:link: teste aqui: <a href="https://okrforlife.000webhostapp.com/img/okr.gif">OKRforLife</a></h2>
-
 # Tecnologias
 - [HTML]
 - [CSS]
@@ -35,6 +33,7 @@
 - [JQuery]
 
 # Como testar
+<h2 align="center">:link: teste aqui: <a href="https://okrforlife.000webhostapp.com/img/okr.gif">OKRforLife</a></h2>
 
 - Caso não esteja conseguindo acessar o link, tente mudar a VPN;
 - Na tela inicial, clique em cadastrar;
