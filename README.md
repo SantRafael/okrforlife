@@ -31,6 +31,7 @@
 - [Bootstrap]
 - [JavaScript]
 - [JQuery]
+- [PHP]
 
 # Como testar
 <h2 align="center">:link: teste aqui: <a href="https://okrforlife.000webhostapp.com/img/okr.gif">OKRforLife</a></h2>
